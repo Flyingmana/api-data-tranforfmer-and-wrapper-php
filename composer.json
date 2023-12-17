@@ -1,0 +1,20 @@
+{
+    "name": "flyingmana/api-data-transformer-and-wrapper",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "ayeo/parser": "dev-master",
+        "monolog/monolog": "^3.5",
+        "league/csv": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flyingmana\\ApiDataWrapper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Fahlke",
+            "email": "flyingmana@googlemail.com"
+        }
+    ]
+}
